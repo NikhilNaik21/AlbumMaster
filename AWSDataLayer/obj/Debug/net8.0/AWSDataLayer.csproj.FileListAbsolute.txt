@@ -1,0 +1,5 @@
+D:\Ec2 webApplication\AWSDataLayer\obj\Debug\net8.0\AWSDataLayer.csproj.AssemblyReference.cache
+D:\Ec2 webApplication\AWSDataLayer\obj\Debug\net8.0\AWSDataLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ec2 webApplication\AWSDataLayer\obj\Debug\net8.0\AWSDataLayer.AssemblyInfoInputs.cache
+D:\Ec2 webApplication\AWSDataLayer\obj\Debug\net8.0\AWSDataLayer.AssemblyInfo.cs
+D:\Ec2 webApplication\AWSDataLayer\obj\Debug\net8.0\AWSDataLayer.csproj.CoreCompileInputs.cache

@@ -1,0 +1,19 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "AWSWebsite1.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\AWSDataLayers\\AWSDataLayers.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "AWSHelper\\AWSHelper.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

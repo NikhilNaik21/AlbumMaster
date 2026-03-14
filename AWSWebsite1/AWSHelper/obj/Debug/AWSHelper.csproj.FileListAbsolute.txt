@@ -1,0 +1,13 @@
+D:\Ec2 webApplication\AWSWebsite1\AWSHelper\bin\Debug\AWSHelper.dll
+D:\Ec2 webApplication\AWSWebsite1\AWSHelper\bin\Debug\AWSHelper.pdb
+D:\Ec2 webApplication\AWSWebsite1\AWSHelper\bin\Debug\AWSSDK.Core.dll
+D:\Ec2 webApplication\AWSWebsite1\AWSHelper\bin\Debug\AWSSDK.S3.dll
+D:\Ec2 webApplication\AWSWebsite1\AWSHelper\bin\Debug\AWSSDK.Core.pdb
+D:\Ec2 webApplication\AWSWebsite1\AWSHelper\bin\Debug\AWSSDK.Core.xml
+D:\Ec2 webApplication\AWSWebsite1\AWSHelper\bin\Debug\AWSSDK.S3.pdb
+D:\Ec2 webApplication\AWSWebsite1\AWSHelper\bin\Debug\AWSSDK.S3.xml
+D:\Ec2 webApplication\AWSWebsite1\AWSHelper\obj\Debug\AWSHelper.csproj.AssemblyReference.cache
+D:\Ec2 webApplication\AWSWebsite1\AWSHelper\obj\Debug\AWSHelper.csproj.CoreCompileInputs.cache
+D:\Ec2 webApplication\AWSWebsite1\AWSHelper\obj\Debug\AWSHelper.csproj.Up2Date
+D:\Ec2 webApplication\AWSWebsite1\AWSHelper\obj\Debug\AWSHelper.dll
+D:\Ec2 webApplication\AWSWebsite1\AWSHelper\obj\Debug\AWSHelper.pdb

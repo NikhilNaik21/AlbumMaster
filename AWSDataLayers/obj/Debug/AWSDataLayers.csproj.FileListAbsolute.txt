@@ -1,0 +1,11 @@
+D:\Ec2 webApplication\AWSDataLayers\bin\Debug\AWSDataLayers.dll
+D:\Ec2 webApplication\AWSDataLayers\bin\Debug\AWSDataLayers.pdb
+D:\Ec2 webApplication\AWSDataLayers\bin\Debug\Dapper.dll
+D:\Ec2 webApplication\AWSDataLayers\bin\Debug\Newtonsoft.Json.dll
+D:\Ec2 webApplication\AWSDataLayers\bin\Debug\Dapper.xml
+D:\Ec2 webApplication\AWSDataLayers\bin\Debug\Newtonsoft.Json.xml
+D:\Ec2 webApplication\AWSDataLayers\obj\Debug\AWSDataLayers.csproj.AssemblyReference.cache
+D:\Ec2 webApplication\AWSDataLayers\obj\Debug\AWSDataLayers.csproj.CoreCompileInputs.cache
+D:\Ec2 webApplication\AWSDataLayers\obj\Debug\AWSDataL.36452F61.Up2Date
+D:\Ec2 webApplication\AWSDataLayers\obj\Debug\AWSDataLayers.dll
+D:\Ec2 webApplication\AWSDataLayers\obj\Debug\AWSDataLayers.pdb

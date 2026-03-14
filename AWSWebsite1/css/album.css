@@ -1,0 +1,258 @@
+﻿/* ===== PAGE BACKGROUND ===== */
+
+body {
+    background: linear-gradient(135deg, #eef2f7, #dfe6ee);
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    margin-top: 50px;
+    margin-left: 43px;
+}
+
+/* ===== PAGE TITLE ===== */
+
+h2 {
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+
+/* ===== CREATE ALBUM BUTTON ===== */
+
+#cphBody_btnNewAlbum {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left: 90px;
+    margin-top: 90px;
+}
+
+    #cphBody_btnNewAlbum:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 14px rgba(0,0,0,0.2);
+    }
+
+
+/* ===== GRIDVIEW TABLE ===== */
+
+#cphBody_gvAlbums {
+    width: 60%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+
+    /* ===== TABLE HEADER ===== */
+
+    #cphBody_gvAlbums th {
+        background: #4a6cf7;
+        color: white;
+        padding: 12px;
+        text-align: left;
+        font-weight: 600;
+    }
+
+
+    /* ===== TABLE CELLS ===== */
+
+    #cphBody_gvAlbums td {
+        padding: 10px 12px;
+        border-bottom: 1px solid #e6e9ef;
+    }
+
+
+    /* ===== ROW HOVER ===== */
+
+    #cphBody_gvAlbums tr:hover td {
+        background-color: #f5f7ff;
+    }
+
+
+    /* ===== MANAGE LINK ===== */
+
+    #cphBody_gvAlbums a {
+        color: #4a6cf7;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+        #cphBody_gvAlbums a:hover {
+            text-decoration: underline;
+        }
+
+
+/*Manage Album color-profile CSS*/
+
+/* Page background */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #eef2f7, #d9e4f5);
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container */
+.album-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* Album title */
+#lblAlbumTitle {
+    text-align: center;
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+/* Upload area */
+.upload-area {
+    border: 2px dashed #bfc9d9;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    background: #f9fbff;
+    transition: 0.3s;
+}
+
+    .upload-area:hover {
+        border-color: #007bff;
+        background: #f1f7ff;
+    }
+
+/* Buttons */
+.btn {
+    padding: 10px 22px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 8px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+/* Primary button */
+.btn-primary {
+    background: linear-gradient(45deg, #007bff, #0056d6);
+    color: white;
+}
+
+    .btn-primary:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(0,123,255,0.3);
+    }
+
+/* Secondary button */
+.btn-secondary {
+    background: #6c757d;
+    color: white;
+}
+
+    .btn-secondary:hover {
+        background: #545b62;
+    }
+
+/* Photo grid */
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    gap: 18px;
+    margin-top: 30px;
+}
+
+/* Photo card */
+.photo-thumb {
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    /* Hover effect */
+    .photo-thumb:hover {
+        transform: scale(1.05);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+
+    /* Image styling */
+    .photo-thumb img {
+        width: 100%;
+        height: 140px;
+        object-fit: cover;
+        display: block;
+    }
+
+    /* Optional overlay effect */
+    .photo-thumb::after {
+        content: "View";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0,0,0,0.45);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+
+    .photo-thumb:hover::after {
+        opacity: 1;
+    }
+
+/* Page title */
+.album-title {
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+    /* decorative line under title */
+    .album-title::after {
+        content: "";
+        width: 80px;
+        height: 4px;
+        background: linear-gradient(90deg,#007bff,#00c6ff);
+        display: block;
+        margin: 10px auto 0;
+        border-radius: 3px;
+    }
+
+
+/* Back button styling */
+.btn-back {
+    background: #6c757d;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+    .btn-back:hover {
+        background: #545b62;
+    }

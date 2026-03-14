@@ -1,0 +1,91 @@
+﻿body {
+    background: linear-gradient(135deg, #eef2f7, #dfe6ee);
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    background-color: #ffffff;
+    max-width: 400px;
+    width: 100%;
+    padding: 30px 25px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+h2 {
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+    .form-group label {
+        display: block;
+        font-weight: 600;
+        margin-bottom: 8px;
+        color: #34495e;
+    }
+
+        .form-group label span {
+            color: #e74c3c;
+        }
+
+.form-control {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 15px;
+    border: 1.8px solid #bdc3c7;
+    border-radius: 6px;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+    .form-control:focus {
+        border-color: #667eea;
+        outline: none;
+        box-shadow: 0 0 6px #667eea66;
+    }
+
+.btn {
+    padding: 10px 22px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-success {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    box-shadow: 0 5px 12px #667eea99;
+    margin-right: 12px;
+}
+
+    .btn-success:hover {
+        background: linear-gradient(135deg, #5469d4, #5d3b88);
+        box-shadow: 0 8px 20px #5469d466;
+    }
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+    box-shadow: 0 5px 12px #6c757d99;
+}
+
+    .btn-secondary:hover {
+        background-color: #565e64;
+        box-shadow: 0 8px 20px #565e6466;
+    }

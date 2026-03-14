@@ -1,0 +1,577 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Ec2 webApplication\\AWSWebsite1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|D:\\Ec2 webApplication\\AWSWebsite1\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C14C59C-8FAA-4976-8FAC-947F8C52B846}|..\\AWSDataLayers\\AWSDataLayers.csproj|d:\\ec2 webapplication\\awsdatalayers\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C14C59C-8FAA-4976-8FAC-947F8C52B846}|..\\AWSDataLayers\\AWSDataLayers.csproj|d:\\ec2 webapplication\\awsdatalayers\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C14C59C-8FAA-4976-8FAC-947F8C52B846}|..\\AWSDataLayers\\AWSDataLayers.csproj|d:\\ec2 webapplication\\awsdatalayers\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C14C59C-8FAA-4976-8FAC-947F8C52B846}|..\\AWSDataLayers\\AWSDataLayers.csproj|d:\\ec2 webapplication\\awsdatalayers\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C14C59C-8FAA-4976-8FAC-947F8C52B846}|..\\AWSDataLayers\\AWSDataLayers.csproj|d:\\ec2 webapplication\\awsdatalayers\\models\\albumphoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C14C59C-8FAA-4976-8FAC-947F8C52B846}|..\\AWSDataLayers\\AWSDataLayers.csproj|d:\\ec2 webapplication\\awsdatalayers\\models\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C14C59C-8FAA-4976-8FAC-947F8C52B846}|..\\AWSDataLayers\\AWSDataLayers.csproj|d:\\ec2 webapplication\\awsdatalayers\\bll\\memberbal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C14C59C-8FAA-4976-8FAC-947F8C52B846}|..\\AWSDataLayers\\AWSDataLayers.csproj|d:\\ec2 webapplication\\awsdatalayers\\bll\\clientresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C14C59C-8FAA-4976-8FAC-947F8C52B846}|..\\AWSDataLayers\\AWSDataLayers.csproj|d:\\ec2 webapplication\\awsdatalayers\\bll\\albumbal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCB13D2B-BD3C-444A-B163-22C828908A17}|AWSHelper\\AWSHelper.csproj|D:\\Ec2 webApplication\\AWSWebsite1\\awshelper\\awswrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCB13D2B-BD3C-444A-B163-22C828908A17}|AWSHelper\\AWSHelper.csproj|solutionrelative:awshelper\\awswrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|D:\\Ec2 webApplication\\AWSWebsite1\\webextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|solutionrelative:webextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|D:\\Ec2 webApplication\\AWSWebsite1\\uploadhandler.ashx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|solutionrelative:uploadhandler.ashx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|D:\\Ec2 webApplication\\AWSWebsite1\\profile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|solutionrelative:profile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|D:\\Ec2 webApplication\\AWSWebsite1\\profile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|solutionrelative:profile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|D:\\Ec2 webApplication\\AWSWebsite1\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|solutionrelative:packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|D:\\Ec2 webApplication\\AWSWebsite1\\myalbum.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|solutionrelative:myalbum.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|D:\\Ec2 webApplication\\AWSWebsite1\\myalbum.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|solutionrelative:myalbum.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|D:\\Ec2 webApplication\\AWSWebsite1\\masterpage.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|solutionrelative:masterpage.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|D:\\Ec2 webApplication\\AWSWebsite1\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|solutionrelative:masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|D:\\Ec2 webApplication\\AWSWebsite1\\managealbum.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|solutionrelative:managealbum.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|D:\\Ec2 webApplication\\AWSWebsite1\\managealbum.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|solutionrelative:managealbum.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|D:\\Ec2 webApplication\\AWSWebsite1\\logout.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|solutionrelative:logout.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|D:\\Ec2 webApplication\\AWSWebsite1\\logout.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|solutionrelative:logout.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|D:\\Ec2 webApplication\\AWSWebsite1\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|solutionrelative:default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|D:\\Ec2 webApplication\\AWSWebsite1\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|solutionrelative:default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|D:\\Ec2 webApplication\\AWSWebsite1\\csharp profile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|solutionrelative:csharp profile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|D:\\Ec2 webApplication\\AWSWebsite1\\createalbum.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|solutionrelative:createalbum.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|D:\\Ec2 webApplication\\AWSWebsite1\\createalbum.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|solutionrelative:createalbum.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|D:\\Ec2 webApplication\\AWSWebsite1\\css\\profile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|solutionrelative:css\\profile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|D:\\Ec2 webApplication\\AWSWebsite1\\css\\managealbum.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|solutionrelative:css\\managealbum.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|D:\\Ec2 webApplication\\AWSWebsite1\\css\\demo.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|solutionrelative:css\\demo.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|D:\\Ec2 webApplication\\AWSWebsite1\\css\\createalbum.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|solutionrelative:css\\createalbum.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|D:\\Ec2 webApplication\\AWSWebsite1\\css\\animate-custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|solutionrelative:css\\animate-custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|D:\\Ec2 webApplication\\AWSWebsite1\\css\\album.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|solutionrelative:css\\album.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "packages.config",
+              "DocumentMoniker": "D:\\Ec2 webApplication\\AWSDataLayers\\packages.config",
+              "RelativeDocumentMoniker": "..\\AWSDataLayers\\packages.config",
+              "ToolTip": "D:\\Ec2 webApplication\\AWSDataLayers\\packages.config",
+              "RelativeToolTip": "..\\AWSDataLayers\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-03-14T12:47:08.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Member.cs",
+              "DocumentMoniker": "D:\\Ec2 webApplication\\AWSDataLayers\\Models\\Member.cs",
+              "RelativeDocumentMoniker": "..\\AWSDataLayers\\Models\\Member.cs",
+              "ToolTip": "D:\\Ec2 webApplication\\AWSDataLayers\\Models\\Member.cs",
+              "RelativeToolTip": "..\\AWSDataLayers\\Models\\Member.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T12:46:37.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AlbumPhoto.cs",
+              "DocumentMoniker": "D:\\Ec2 webApplication\\AWSDataLayers\\Models\\AlbumPhoto.cs",
+              "RelativeDocumentMoniker": "..\\AWSDataLayers\\Models\\AlbumPhoto.cs",
+              "ToolTip": "D:\\Ec2 webApplication\\AWSDataLayers\\Models\\AlbumPhoto.cs",
+              "RelativeToolTip": "..\\AWSDataLayers\\Models\\AlbumPhoto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T12:46:35.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Album.cs",
+              "DocumentMoniker": "D:\\Ec2 webApplication\\AWSDataLayers\\Models\\Album.cs",
+              "RelativeDocumentMoniker": "..\\AWSDataLayers\\Models\\Album.cs",
+              "ToolTip": "D:\\Ec2 webApplication\\AWSDataLayers\\Models\\Album.cs",
+              "RelativeToolTip": "..\\AWSDataLayers\\Models\\Album.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T12:46:34.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MemberBAL.cs",
+              "DocumentMoniker": "D:\\Ec2 webApplication\\AWSDataLayers\\BLL\\MemberBAL.cs",
+              "RelativeDocumentMoniker": "..\\AWSDataLayers\\BLL\\MemberBAL.cs",
+              "ToolTip": "D:\\Ec2 webApplication\\AWSDataLayers\\BLL\\MemberBAL.cs",
+              "RelativeToolTip": "..\\AWSDataLayers\\BLL\\MemberBAL.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T12:46:26.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Config.cs",
+              "DocumentMoniker": "D:\\Ec2 webApplication\\AWSDataLayers\\Config.cs",
+              "RelativeDocumentMoniker": "..\\AWSDataLayers\\Config.cs",
+              "ToolTip": "D:\\Ec2 webApplication\\AWSDataLayers\\Config.cs",
+              "RelativeToolTip": "..\\AWSDataLayers\\Config.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T12:47:02.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\Ec2 webApplication\\AWSWebsite1\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "D:\\Ec2 webApplication\\AWSWebsite1\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-03-14T12:44:22.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Common.cs",
+              "DocumentMoniker": "D:\\Ec2 webApplication\\AWSDataLayers\\Common.cs",
+              "RelativeDocumentMoniker": "..\\AWSDataLayers\\Common.cs",
+              "ToolTip": "D:\\Ec2 webApplication\\AWSDataLayers\\Common.cs",
+              "RelativeToolTip": "..\\AWSDataLayers\\Common.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T12:46:39.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClientResponse.cs",
+              "DocumentMoniker": "D:\\Ec2 webApplication\\AWSDataLayers\\BLL\\ClientResponse.cs",
+              "RelativeDocumentMoniker": "..\\AWSDataLayers\\BLL\\ClientResponse.cs",
+              "ToolTip": "D:\\Ec2 webApplication\\AWSDataLayers\\BLL\\ClientResponse.cs",
+              "RelativeToolTip": "..\\AWSDataLayers\\BLL\\ClientResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T12:46:23.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AlbumBAL.cs",
+              "DocumentMoniker": "D:\\Ec2 webApplication\\AWSDataLayers\\BLL\\AlbumBAL.cs",
+              "RelativeDocumentMoniker": "..\\AWSDataLayers\\BLL\\AlbumBAL.cs",
+              "ToolTip": "D:\\Ec2 webApplication\\AWSDataLayers\\BLL\\AlbumBAL.cs",
+              "RelativeToolTip": "..\\AWSDataLayers\\BLL\\AlbumBAL.cs",
+              "ViewState": "AgIAAP0AAAAAAAAAAADwvwgBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T12:46:12.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AWSWrapper.cs",
+              "DocumentMoniker": "D:\\Ec2 webApplication\\AWSWebsite1\\AWSHelper\\AWSWrapper.cs",
+              "RelativeDocumentMoniker": "AWSHelper\\AWSWrapper.cs",
+              "ToolTip": "D:\\Ec2 webApplication\\AWSWebsite1\\AWSHelper\\AWSWrapper.cs",
+              "RelativeToolTip": "AWSHelper\\AWSWrapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T12:46:02.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WebExtension.cs",
+              "DocumentMoniker": "D:\\Ec2 webApplication\\AWSWebsite1\\WebExtension.cs",
+              "RelativeDocumentMoniker": "WebExtension.cs",
+              "ToolTip": "D:\\Ec2 webApplication\\AWSWebsite1\\WebExtension.cs",
+              "RelativeToolTip": "WebExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T12:44:32.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UploadHandler.ashx.cs",
+              "DocumentMoniker": "D:\\Ec2 webApplication\\AWSWebsite1\\UploadHandler.ashx.cs",
+              "RelativeDocumentMoniker": "UploadHandler.ashx.cs",
+              "ToolTip": "D:\\Ec2 webApplication\\AWSWebsite1\\UploadHandler.ashx.cs",
+              "RelativeToolTip": "UploadHandler.ashx.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAQwE4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T12:44:04.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Profile.aspx.cs",
+              "DocumentMoniker": "D:\\Ec2 webApplication\\AWSWebsite1\\Profile.aspx.cs",
+              "RelativeDocumentMoniker": "Profile.aspx.cs",
+              "ToolTip": "D:\\Ec2 webApplication\\AWSWebsite1\\Profile.aspx.cs",
+              "RelativeToolTip": "Profile.aspx.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAYwAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T12:43:54.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Profile.aspx",
+              "DocumentMoniker": "D:\\Ec2 webApplication\\AWSWebsite1\\Profile.aspx",
+              "RelativeDocumentMoniker": "Profile.aspx",
+              "ToolTip": "D:\\Ec2 webApplication\\AWSWebsite1\\Profile.aspx",
+              "RelativeToolTip": "Profile.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-03-14T12:43:46.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "packages.config",
+              "DocumentMoniker": "D:\\Ec2 webApplication\\AWSWebsite1\\packages.config",
+              "RelativeDocumentMoniker": "packages.config",
+              "ToolTip": "D:\\Ec2 webApplication\\AWSWebsite1\\packages.config",
+              "RelativeToolTip": "packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-03-14T12:43:43.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MyAlbum.aspx.cs",
+              "DocumentMoniker": "D:\\Ec2 webApplication\\AWSWebsite1\\MyAlbum.aspx.cs",
+              "RelativeDocumentMoniker": "MyAlbum.aspx.cs",
+              "ToolTip": "D:\\Ec2 webApplication\\AWSWebsite1\\MyAlbum.aspx.cs",
+              "RelativeToolTip": "MyAlbum.aspx.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T12:43:39.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MyAlbum.aspx",
+              "DocumentMoniker": "D:\\Ec2 webApplication\\AWSWebsite1\\MyAlbum.aspx",
+              "RelativeDocumentMoniker": "MyAlbum.aspx",
+              "ToolTip": "D:\\Ec2 webApplication\\AWSWebsite1\\MyAlbum.aspx",
+              "RelativeToolTip": "MyAlbum.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-03-14T12:43:29.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MasterPage.Master.cs",
+              "DocumentMoniker": "D:\\Ec2 webApplication\\AWSWebsite1\\MasterPage.Master.cs",
+              "RelativeDocumentMoniker": "MasterPage.Master.cs",
+              "ToolTip": "D:\\Ec2 webApplication\\AWSWebsite1\\MasterPage.Master.cs",
+              "RelativeToolTip": "MasterPage.Master.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T12:43:25.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MasterPage.Master",
+              "DocumentMoniker": "D:\\Ec2 webApplication\\AWSWebsite1\\MasterPage.Master",
+              "RelativeDocumentMoniker": "MasterPage.Master",
+              "ToolTip": "D:\\Ec2 webApplication\\AWSWebsite1\\MasterPage.Master",
+              "RelativeToolTip": "MasterPage.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-03-14T12:43:13.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ManageAlbum.aspx.cs",
+              "DocumentMoniker": "D:\\Ec2 webApplication\\AWSWebsite1\\ManageAlbum.aspx.cs",
+              "RelativeDocumentMoniker": "ManageAlbum.aspx.cs",
+              "ToolTip": "D:\\Ec2 webApplication\\AWSWebsite1\\ManageAlbum.aspx.cs",
+              "RelativeToolTip": "ManageAlbum.aspx.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAowH8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T12:43:04.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ManageAlbum.aspx",
+              "DocumentMoniker": "D:\\Ec2 webApplication\\AWSWebsite1\\ManageAlbum.aspx",
+              "RelativeDocumentMoniker": "ManageAlbum.aspx",
+              "ToolTip": "D:\\Ec2 webApplication\\AWSWebsite1\\ManageAlbum.aspx",
+              "RelativeToolTip": "ManageAlbum.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-03-14T12:42:54.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Logout.aspx.cs",
+              "DocumentMoniker": "D:\\Ec2 webApplication\\AWSWebsite1\\Logout.aspx.cs",
+              "RelativeDocumentMoniker": "Logout.aspx.cs",
+              "ToolTip": "D:\\Ec2 webApplication\\AWSWebsite1\\Logout.aspx.cs",
+              "RelativeToolTip": "Logout.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T12:42:51.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Logout.aspx",
+              "DocumentMoniker": "D:\\Ec2 webApplication\\AWSWebsite1\\Logout.aspx",
+              "RelativeDocumentMoniker": "Logout.aspx",
+              "ToolTip": "D:\\Ec2 webApplication\\AWSWebsite1\\Logout.aspx",
+              "RelativeToolTip": "Logout.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-03-14T12:42:47.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Default.aspx.cs",
+              "DocumentMoniker": "D:\\Ec2 webApplication\\AWSWebsite1\\Default.aspx.cs",
+              "RelativeDocumentMoniker": "Default.aspx.cs",
+              "ToolTip": "D:\\Ec2 webApplication\\AWSWebsite1\\Default.aspx.cs",
+              "RelativeToolTip": "Default.aspx.cs",
+              "ViewState": "AgIAAIsAAAAAAAAAAAA/wJkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T12:42:16.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "D:\\Ec2 webApplication\\AWSWebsite1\\Default.aspx",
+              "RelativeDocumentMoniker": "Default.aspx",
+              "ToolTip": "D:\\Ec2 webApplication\\AWSWebsite1\\Default.aspx",
+              "RelativeToolTip": "Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-03-14T12:42:03.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "csharp Profile.aspx.cs",
+              "DocumentMoniker": "D:\\Ec2 webApplication\\AWSWebsite1\\csharp Profile.aspx.cs",
+              "RelativeDocumentMoniker": "csharp Profile.aspx.cs",
+              "ToolTip": "D:\\Ec2 webApplication\\AWSWebsite1\\csharp Profile.aspx.cs",
+              "RelativeToolTip": "csharp Profile.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T12:42:01.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CreateAlbum.aspx.cs",
+              "DocumentMoniker": "D:\\Ec2 webApplication\\AWSWebsite1\\CreateAlbum.aspx.cs",
+              "RelativeDocumentMoniker": "CreateAlbum.aspx.cs",
+              "ToolTip": "D:\\Ec2 webApplication\\AWSWebsite1\\CreateAlbum.aspx.cs",
+              "RelativeToolTip": "CreateAlbum.aspx.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwB4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T12:41:44.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CreateAlbum.aspx",
+              "DocumentMoniker": "D:\\Ec2 webApplication\\AWSWebsite1\\CreateAlbum.aspx",
+              "RelativeDocumentMoniker": "CreateAlbum.aspx",
+              "ToolTip": "D:\\Ec2 webApplication\\AWSWebsite1\\CreateAlbum.aspx",
+              "RelativeToolTip": "CreateAlbum.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-03-14T12:41:39.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "profile.css",
+              "DocumentMoniker": "D:\\Ec2 webApplication\\AWSWebsite1\\css\\profile.css",
+              "RelativeDocumentMoniker": "css\\profile.css",
+              "ToolTip": "D:\\Ec2 webApplication\\AWSWebsite1\\css\\profile.css",
+              "RelativeToolTip": "css\\profile.css",
+              "ViewState": "AgIAABoBAAAAAAAAAAAAAAEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-03-14T12:40:54.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "manageAlbum.css",
+              "DocumentMoniker": "D:\\Ec2 webApplication\\AWSWebsite1\\css\\manageAlbum.css",
+              "RelativeDocumentMoniker": "css\\manageAlbum.css",
+              "ToolTip": "D:\\Ec2 webApplication\\AWSWebsite1\\css\\manageAlbum.css",
+              "RelativeToolTip": "css\\manageAlbum.css",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-03-14T12:40:47.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Demo.css",
+              "DocumentMoniker": "D:\\Ec2 webApplication\\AWSWebsite1\\css\\Demo.css",
+              "RelativeDocumentMoniker": "css\\Demo.css",
+              "ToolTip": "D:\\Ec2 webApplication\\AWSWebsite1\\css\\Demo.css",
+              "RelativeToolTip": "css\\Demo.css",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAAAMgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-03-14T12:40:32.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "createAlbum.css",
+              "DocumentMoniker": "D:\\Ec2 webApplication\\AWSWebsite1\\css\\createAlbum.css",
+              "RelativeDocumentMoniker": "css\\createAlbum.css",
+              "ToolTip": "D:\\Ec2 webApplication\\AWSWebsite1\\css\\createAlbum.css",
+              "RelativeToolTip": "css\\createAlbum.css",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-03-14T12:40:24.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "animate-custom.css",
+              "DocumentMoniker": "D:\\Ec2 webApplication\\AWSWebsite1\\css\\animate-custom.css",
+              "RelativeDocumentMoniker": "css\\animate-custom.css",
+              "ToolTip": "D:\\Ec2 webApplication\\AWSWebsite1\\css\\animate-custom.css",
+              "RelativeToolTip": "css\\animate-custom.css",
+              "ViewState": "AgIAAN4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-03-14T12:40:18.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "album.css",
+              "DocumentMoniker": "D:\\Ec2 webApplication\\AWSWebsite1\\css\\album.css",
+              "RelativeDocumentMoniker": "css\\album.css",
+              "ToolTip": "D:\\Ec2 webApplication\\AWSWebsite1\\css\\album.css",
+              "RelativeToolTip": "css\\album.css",
+              "ViewState": "AgIAAO0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-03-14T12:40:11.322Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

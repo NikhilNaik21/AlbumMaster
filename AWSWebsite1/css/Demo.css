@@ -1,0 +1,201 @@
+﻿/* ===== RESET & BODY ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient( 135deg, #f8f9fa 0%, #eef1f4 100% );
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+}
+
+/* ===== TOP HEADER ===== */
+.container header h1 {
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: #2c3e50;
+    padding: 20px 0 10px;
+}
+
+    .container header h1 span {
+        color: #e74c3c;
+    }
+
+/* ===== CENTER THE DEMO CONTAINER ===== */
+#container_demo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+/* ===== WRAPPER (holds both login + register) ===== */
+#wrapper {
+    width: 400px;
+}
+
+/* ===== HIDDEN ANCHORS (for toggle trick) ===== */
+.hiddenanchor {
+    display: block;
+    visibility: hidden;
+    height: 0;
+}
+
+/* ===== EACH FORM CARD ===== */
+.animate.form {
+    background: white;
+    border-radius: 8px;
+    padding: 35px 40px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    margin-bottom: 20px;
+}
+
+    /* ===== FORM H1 (Log in / Sign up) ===== */
+    .animate.form h1 {
+        font-variant: small-caps;
+        text-align: center;
+        font-size: 26px;
+        color: #2c3e50;
+        padding-bottom: 12px;
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 15px;
+    }
+
+    /* ===== FORM PARAGRAPHS ===== */
+    .animate.form form p {
+        margin-bottom: 12px;
+    }
+
+    /* ===== LABELS WITH ICONS (data-icon) ===== */
+    .animate.form label {
+        display: block;
+        font-size: 13px;
+        color: #555;
+        margin-bottom: 5px;
+    }
+
+/* icon trick using data-icon attribute */
+label.uname::before {
+    content: "✉ ";
+    color: #aaa;
+}
+
+label.youpasswd::before {
+    content: "🔑 ";
+    color: #aaa;
+}
+
+label.youmail::before {
+    content: "✉ ";
+    color: #aaa;
+}
+
+/* ===== ALL INPUTS ===== */
+.animate.form input[type="text"],
+.animate.form input[type="email"],
+.animate.form input[type="password"] {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #999;
+    background-color: #fafafa;
+}
+
+    .animate.form input[type="text"]:focus,
+    .animate.form input[type="email"]:focus,
+    .animate.form input[type="password"]:focus {
+        outline: none;
+        border-color: #5ba4cf;
+        background-color: #fff;
+    }
+
+/* ===== KEEP ME LOGGED IN ===== */
+p.keeplogin {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    color: #666;
+    font-style: italic;
+}
+
+    p.keeplogin input[type="checkbox"] {
+        width: 15px;
+        height: 15px;
+        cursor: pointer;
+    }
+
+    p.keeplogin label {
+        margin: 0;
+        font-style: italic;
+    }
+
+/* ===== LOGIN / SIGNUP BUTTON ===== */
+p.login.button input[type="submit"],
+p.signin.button input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #5ba4cf;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+    p.login.button input[type="submit"]:hover,
+    p.signin.button input[type="submit"]:hover {
+        background-color: #4a8fbf;
+    }
+
+/* ===== BOTTOM SWITCH LINK ===== */
+p.change_link {
+    text-align: center;
+    font-size: 13px;
+    color: #888;
+    font-style: italic;
+    background: #f0f0f0;
+    padding: 10px;
+    border-radius: 0 0 8px 8px;
+    margin: 15px -40px -35px -40px;
+}
+
+    p.change_link a.to_register {
+        color: #5ba4cf;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+        p.change_link a.to_register:hover {
+            text-decoration: underline;
+        }
+
+/* ===== TOGGLE: show login by default, hide register ===== */
+#register {
+    display: none;
+}
+
+#toregister:target ~ #wrapper #register {
+    display: block;
+}
+
+#toregister:target ~ #wrapper #login {
+    display: none;
+}
+
+#tologin:target ~ #wrapper #login {
+    display: block;
+}
+
+#tologin:target ~ #wrapper #register {
+    display: none;
+}

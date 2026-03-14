@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "D:\\Ec2 webApplication\\AWSWebsite1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|D:\\Ec2 webApplication\\AWSWebsite1\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|d:\\ec2 webapplication\\awswebsite1\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A8ED2365-109F-40B8-AF5B-9F2E62C86AB0}|AWSWebsite1.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
@@ -157,8 +157,7 @@
               "RelativeToolTip": "..\\AWSDataLayers\\packages.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2026-03-14T12:47:08.433Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T12:47:08.433Z"
             },
             {
               "$type": "Document",

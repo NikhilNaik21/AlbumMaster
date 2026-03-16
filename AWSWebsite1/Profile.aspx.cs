@@ -11,7 +11,8 @@ namespace AWSWebsite1
 {
     public partial class Profile : System.Web.UI.Page
     {
-        protected string profileImage = ConfigInfo.ProfileImagePath + "noimage.png";
+        public string profileImage = "";
+        public string noImagePlaceholder = "";
         protected Member member = null;
 
         protected void Page_Load(object sender, EventArgs e)
@@ -25,10 +26,26 @@ namespace AWSWebsite1
                 return;
             }
 
-            // Load profile image
-            profileImage = !string.IsNullOrEmpty(member.ProfileImage)
-                ? ConfigInfo.ProfileImagePath + member.ProfileImage
-                : ConfigInfo.ProfileImagePath + "noimage.png";
+            // Set the no image placeholder path
+            noImagePlaceholder = ResolveUrl("~/AlbumPhotos/noimage.png");
+
+            // Load profile image - only set if it exists
+            if (!string.IsNullOrEmpty(member.ProfileImage))
+            {
+                string imagePath = Server.MapPath(ConfigInfo.ProfileImagePath + member.ProfileImage);
+                if (File.Exists(imagePath))
+                {
+                    profileImage = ConfigInfo.ProfileImagePath + member.ProfileImage;
+                }
+                else
+                {
+                    profileImage = ""; // Will show placeholder
+                }
+            }
+            else
+            {
+                profileImage = ""; // No image, will show placeholder
+            }
 
             // Handle AJAX upload
             if (Request["method"] == "profileImage")

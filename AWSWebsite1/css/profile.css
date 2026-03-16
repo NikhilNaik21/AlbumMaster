@@ -4,24 +4,11 @@
 }
 
 /* ===== PAGE BACKGROUND ===== */
-
 body, html {
-    margin: 0 !important;
-    padding: 0 !important;
-    font-family: "Inter", "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif !important;
-    background: linear-gradient( 135deg, #667eea 0%, #764ba2 50%, #6dd5ed 100% );
-    min-height: 100vh;
-}
-
-.container-fluid, .container, main {
-    padding: 0 !important;
-    margin: 0 !important;
-}
-
-/* ===== PAGE SECTION ===== */
-.profile-section {
-    background: transparent;
-    max-width: 207px;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #6dd5ed 100%);
 }
 
 /* ===== MAIN CARD WRAP ===== */
@@ -37,26 +24,31 @@ body, html {
 }
 
 .profile-left-panel {
-    padding: 40px 20px 30px;
+    padding: 40px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     border-top-left-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
+    min-height: 500px;
 }
 
 /* ===== AVATAR ===== */
 .profile-avatar {
-    width: 80px; /* reduced from 100px */
-    height: 80px; /* reduced from 100px */
+    width: 220px;
+    height: 220px;
     border-radius: 50%;
     border: 4px solid rgba(255, 255, 255, 0.6);
     overflow: hidden;
     position: relative;
     cursor: pointer;
-    margin: 0 auto 10px;
+    margin: 0 auto 20px;
     transition: transform 0.3s ease, border-color 0.3s ease;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
     .profile-avatar:hover {
@@ -64,14 +56,13 @@ body, html {
         border-color: rgba(255, 255, 255, 0.9);
     }
 
-    .profile-avatar img {
+    .profile-avatar .profile-img {
         width: 100%;
         height: 100%;
-        object-fit: cover; /* ensures image fills circle without stretching */
-        object-position: center; /* centers the image inside the circle */
+        object-fit: cover;
+        object-position: center;
         display: block;
     }
-
 
 #imgProgress {
     position: absolute;
@@ -81,34 +72,13 @@ body, html {
     width: 0%;
     background: linear-gradient(90deg, #10b981, #34d399);
     transition: width 0.4s ease;
+    z-index: 10;
 }
 
-.profile-upload-indicator {
-    background: #22d3ee;
-}
-
-/* ===== MEMBER BADGE ===== */
-.profile-member-badge {
-    display: inline-block;
-    background: rgba(255, 255, 255, 0.25);
-    backdrop-filter: blur(8px);
-    border: 1px solid rgba(255, 255, 255, 0.4);
-    color: white;
-    padding: 5px 14px;
-    border-radius: 50px;
-    font-size: 0.8rem;
-    font-weight: 600;
-    margin-top: 6px;
-}
-
-/* ===== JOINED TEXT ===== */
-.profile-joined {
-    font-size: 0.85rem;
-    color: rgba(255, 255, 255, 0.8);
-}
-
+/* ===== RIGHT PANEL ===== */
 .profile-right-panel {
     background-color: #1f2937;
+    padding: 0;
 }
 
     .profile-right-panel .card-body {
@@ -142,59 +112,14 @@ body, html {
     margin-bottom: 0;
 }
 
-/* ===== STATS ROW ===== */
-.profile-stats-row {
-    display: flex;
-    gap: 16px;
-    flex-wrap: wrap;
-}
-
-.stat-item {
-    background: rgba(255, 255, 255, 0.07);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 14px;
-    padding: 14px 22px;
-    text-align: center;
-    flex: 1;
-    min-width: 80px;
-    transition: background 0.25s ease, transform 0.25s ease;
-    cursor: default;
-}
-
-    .stat-item:hover {
-        background: rgba(255, 255, 255, 0.12);
-        transform: translateY(-3px);
-    }
-
-.stat-number {
-    font-size: 1.5rem;
-    font-weight: 900;
-    color: #22d3ee;
-    margin-bottom: 2px;
-}
-
-.stat-label {
-    font-size: 0.75rem;
-    color: #9aa3ac;
-    text-transform: uppercase;
-    letter-spacing: 0.8px;
-    font-weight: 600;
-}
-
-/* ===== DETAILS VIEW TABLE ===== */
 /* ===== PROFILE DETAILS TABLE ===== */
-
 .profile-details-table {
     border-radius: 10px;
     overflow: hidden;
     border: 1px solid rgba(255,255,255,0.08);
     background-color: #c4c0c0 !important;
 }
-.table profile-dv-table {
-    background-color: #c4c0c0 !important;
-}
 
-/* Table layout */
 .profile-dv-table {
     width: 100%;
     margin: 0 !important;
@@ -202,19 +127,16 @@ body, html {
     border-collapse: collapse;
 }
 
-    /* Table rows */
     .profile-dv-table tbody tr {
         border-bottom: 1px solid rgba(255,255,255,0.08);
     }
 
-    /* Table cells */
     .profile-dv-table > tbody > tr > td {
         padding: 14px 18px !important;
         vertical-align: middle;
         border: none !important;
     }
 
-        /* LEFT COLUMN (LABELS) */
         .profile-dv-table > tbody > tr > td:first-child {
             width: 40%;
             background: rgba(255,255,255,0.05);
@@ -225,14 +147,12 @@ body, html {
             text-transform: uppercase;
         }
 
-        /* RIGHT COLUMN (VALUES) */
         .profile-dv-table > tbody > tr > td:last-child {
             background: transparent;
             color: #e5e7eb !important;
             font-weight: 500;
         }
 
-    /* Row hover effect */
     .profile-dv-table tbody tr:hover td {
         background: rgba(255,255,255,0.05);
     }
@@ -259,21 +179,26 @@ body, html {
 .btn-album {
     background: linear-gradient(135deg, #22d3ee 0%, #0ea5e9 100%);
     color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    display: inline-block;
 }
-
 
     .btn-album:hover {
         transform: translateY(-3px);
-        box-shadow: 0 14px 35px rgba(246, 211, 101, 0.55);
-        color: #3d2c00 !important;
+        box-shadow: 0 14px 35px rgba(34, 211, 238, 0.4);
+        color: white !important;
         text-decoration: none;
     }
 
 /* ===== RESPONSIVE ===== */
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     .profile-left-panel {
         border-radius: 0.5rem 0.5rem 0 0 !important;
         padding: 30px 20px;
+        min-height: auto;
     }
 
     .profile-right-panel {
@@ -284,12 +209,37 @@ body, html {
             padding: 25px 20px !important;
         }
 
-    .profile-stats-row {
-        gap: 10px;
+    .profile-avatar {
+        width: 180px;
+        height: 180px;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .profile-avatar {
+        width: 150px;
+        height: 150px;
     }
 
-    .btn-album {
-        width: 100%;
-        justify-content: center;
+    .profile-left-panel {
+        padding: 20px;
     }
+
+    .profile-right-panel .card-body {
+        padding: 20px !important;
+    }
+
+    .section-heading {
+        font-size: 0.9rem;
+    }
+
+    .info-label {
+        font-size: 0.85rem;
+    }
+
+    .info-value {
+        font-size: 0.8rem;
+    }
+
 }

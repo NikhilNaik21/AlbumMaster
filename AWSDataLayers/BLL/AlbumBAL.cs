@@ -153,12 +153,15 @@ namespace AWSDataLayers.BLL
                     if (!Directory.Exists(saveDirectory))
                         Directory.CreateDirectory(saveDirectory);
 
+                    int photoIndex = 0;
                     foreach (Stream image in photos)
                     {
                         if (image == null || !image.CanRead)
                             continue;
 
-                        string saveImageName = DateTime.Now.Ticks + ".jpg";
+                        // Use Guid + index to ensure unique filenames
+                        string uniqueId = Guid.NewGuid().ToString("N");
+                        string saveImageName = uniqueId + "_" + photoIndex + ".jpg";
                         string filePath = Path.Combine(saveDirectory, saveImageName);
 
                         using (var fs = File.Create(filePath))
@@ -180,6 +183,8 @@ namespace AWSDataLayers.BLL
                             AlbumId = albumID,
                             PhotoName = saveImageName
                         });
+
+                        photoIndex++;
                     }
                 }
             }
@@ -260,8 +265,6 @@ namespace AWSDataLayers.BLL
                 }
             }
         }
-
-        // Add this method to your existing AlbumBAL class
 
         public void DeletePhoto(int photoId)
         {
